@@ -1,0 +1,9 @@
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ mkdir 16
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ cd 16
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/16$ nano data.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/16$ gcc -o data data.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/16$ ./data 
+writing in pipe from parent process
+hi therewriting in pipe from child process
+^C
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/16$ nano ins.txt

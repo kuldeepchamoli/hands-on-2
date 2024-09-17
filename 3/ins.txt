@@ -1,0 +1,6 @@
+uldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ mkdir 3
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ nano set.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ gcc -o set set.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ ./set
+CPU time limit set to 2 seconds.
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ nano ins.txt

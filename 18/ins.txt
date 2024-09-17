@@ -1,0 +1,8 @@
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ mkdir 18
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ cd 18
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/18$ nano no_dir.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/18$ gcc -o no_dir no_dir.c 
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/18$ ./no_dir 
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/18$       0       0       0
+^C
+kuldeep-chamo

@@ -1,0 +1,10 @@
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ mkdir 9
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ cd 9
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/9$ nano signal.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/9$ gcc -o signal signal.c 
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/9$ ./signal 
+SIGINT is now ignored. Press Ctrl+C to send SIGINT.
+^C
+SIGINT is now reset to its default action.
+^C
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/9$ nano ins.txt

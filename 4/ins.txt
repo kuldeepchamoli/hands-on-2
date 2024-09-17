@@ -1,0 +1,7 @@
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/4$ nano timestamp.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/4$ ls
+timestamp.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/4$ gcc -o timestamp timestamp.c 
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/4$ ./timestamp 
+Time taken to execute 100 getppid(): 1124092 cycles
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/4$ nano ins.txt

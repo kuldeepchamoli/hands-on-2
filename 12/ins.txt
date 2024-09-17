@@ -1,0 +1,9 @@
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/12$ nano orphan.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/12$ gcc -o orphan orphan.c 
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/12$ ./orphan 
+inside child pid= 30320
+parent id= 30319
+Parent is killed Child is now orphan
+Killed
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/12$ nano ins.txt
+

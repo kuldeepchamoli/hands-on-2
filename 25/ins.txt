@@ -1,0 +1,16 @@
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ cd 25
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/25$ nano msq.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/25$ gcc -o msq msq.c 
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/25$ ./msq
+access permission 438
+uid : 1000 gid : 1000 
+Time of last msgrcv(2) 0
+Time of last msgsnd(2) 0
+Time of last msgrcv(2) 0
+Time of creation or last modification by msgctl() 1726229589
+number of bytes in queue 0
+number of messages in queue 0
+Maximum number of bytes in queue 16384
+PID of last msgsnd(2) 0
+PID of last msgrcv(2) 0
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/25$ nano ins.txt

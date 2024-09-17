@@ -1,0 +1,11 @@
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/6$ mkdir 7
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/6$ cd ..
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ mkdir 7
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ cd 7
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/7$ nano pthread.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/7$ gcc -o pthread pthread.c 
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/7$ ./pthread 
+Thread ID: 140559668737728
+Thread ID: 140559660345024
+Thread ID: 140559651952320
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/7$ nano ins.txt

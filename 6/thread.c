@@ -29,3 +29,14 @@ int main() {
 
     return 0;
 }
+/*Output
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ mkdir 6
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ cd 6
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/6$ nano thread.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/6$ gcc -o thread thread.c 
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/6$ ./thread 
+This is thread 1
+This is thread 2
+This is thread 3
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/6$ nano inst.txt^C
+*/

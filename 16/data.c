@@ -1,9 +1,12 @@
-// Kuldeep Chamoli
-// MT2024081
-
-/* Write a program to send and receive data from parent to child vice versa.Use two way communication.
- */
-
+/*
+NAME:16 data.c
+AUTHOR: Kuldeep Chamoli
+ROLLNO: MT2024081
+PROGRAM:16. Write a program to send and receive data from parent to child vice versa. Use two way
+communication.
+DATE: SEP 8 2024
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <stdio.h>
@@ -80,3 +83,13 @@ int main()
         wait(0); /* Wait for child */
     }
 }
+/*
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ mkdir 16
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ cd 16
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/16$ nano data.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/16$ gcc -o data data.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/16$ ./data 
+writing in pipe from parent process
+hi therewriting in pipe from child process
+^C
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/16$ nano ins.txt*/

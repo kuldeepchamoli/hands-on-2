@@ -1,11 +1,18 @@
-// Kuldeep Chamoli
-// MT2022081
 /*
-    Write a separate program (for each time domain) to set a interval timer in 10sec and
-    10micro second
-    a. ITIMER_REAL
-    b. ITIMER_VIRTUAL
-    c. ITIMER_PROF
+NAME:1b.c
+AUTHOR: Kuldeep Chamoli
+ROLLNO: MT2024081
+PROGRAM:
+1.This program sets an interval timer for two different time domains:
+    a. 10 seconds (choice 1)
+    b. 10 microseconds (choice 2)
+
+    The program uses:
+    - ITIMER_REAL: Real-time timer (sends SIGALRM when the time expires).
+    - ITIMER_VIRTUAL and ITIMER_PROF can also be configured similarly for other cases.
+
+    User selects between the two intervals.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 #include <sys/time.h>
 #include <signal.h>
@@ -44,7 +51,8 @@ void main(int argc, char const *argv[])
     while (1)
         ;
 }
-/*Select interval timer
+/*output:
+Select interval timer
 1:10s
 2:10micros2
 Profiling timer expired

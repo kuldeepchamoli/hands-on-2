@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 26.c
+Name : 26 msgq.c
 Author :Kuldeep Chamoli
 Description : Write a program to send messages to the message queue. Check $ipcs -q
 Date: 17th Sep, 2024.
@@ -41,3 +41,15 @@ int main(void) {
 	
 	printf("Data sent to the message queue\n");
 }
+/*kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/26$ nano msgq.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/26$ gcc -o msgq msgq.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/26$ ./msgq 
+Hello there
+Data sent to the message queue
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/26$ ipcs -q
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+0x011601e3 0          kuldeep-ch 666        224          2           
+
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/26$ */

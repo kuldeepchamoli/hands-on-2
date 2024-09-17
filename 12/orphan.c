@@ -1,11 +1,13 @@
-// Kuldeep Chamoli
-// MT2024081
-
 /*
-Write a program to create an orphan process. Use kill system call to send SIGKILL signal to
+NAME:12 orphan.c
+AUTHOR: Kuldeep Chamoli
+ROLLNO: MT2024081
+PROGRAM:
+12. Write a program to create an orphan process. Use kill system call to send SIGKILL signal to
 the parent process from the child process.
+DATE: 11 SEP 2024
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
-
 #include <unistd.h>
 #include <stdio.h>
 #include <signal.h>
@@ -32,3 +34,14 @@ int main()
     }
     return 0;
 }
+/*
+output:
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/12$ nano orphan.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/12$ gcc -o orphan orphan.c 
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/12$ ./orphan 
+inside child pid= 30320
+parent id= 30319
+Parent is killed Child is now orphan
+Killed
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/12$ nano ins.txt
+*/

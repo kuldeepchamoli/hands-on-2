@@ -29,3 +29,16 @@ int main() {
 
     return 0;
 }
+/*
+output
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ mkdir 2
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ cd 2
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/2$ nano get.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/2$ gcc -o get get.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/2$ ./get
+RLIMIT_CPU soft limit = -1, hard limit = -1
+RLIMIT_FSIZE soft limit = -1, hard limit = -1
+RLIMIT_STACK soft limit = 8388608, hard limit = -1
+RLIMIT_DATA soft limit = -1, hard limit = -1
+RLIMIT_NOFILE soft limit = 1024, hard limit = 1048576
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/2$ */

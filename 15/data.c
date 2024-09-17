@@ -1,9 +1,12 @@
-// Kuldeep Chamoli
-// MT2024081
 /*
-    Write a simple program to send some data from parent to the child process.
+NAME: 15 data.c
+AUTHOR: Kuldeep Chamoli
+ROLLNO: MT2024081
+PROGRAM:
+15. Write a simple program to send some data from parent to the child proces
+DATE: 08 SEP 2024
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
-
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <stdio.h>
@@ -55,3 +58,15 @@ int main()
         wait(0);          /* Wait for child */
     }
 }
+/*kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ mkdir 15
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ cd 15
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/15$ nano data.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/15$ gcc -o data data.c 
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/15$ ./data 
+writing in pipe from parent process
+display in child 
+^C
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/15$ ./data 
+writing in pipe from parent process
+Hello theredisplay in child 
+*/

@@ -35,3 +35,10 @@ int main(int argc, char *argv[])
     }
     return 0;
 }
+/*output
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/14$ ./pipe 
+enter string of size 10 character
+kuldeepcha
+Display on Monitor
+kuldeepcha
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/14$ nano ins.txt*/

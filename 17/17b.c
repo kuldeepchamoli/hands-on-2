@@ -1,11 +1,14 @@
-// Kuldeep Chamoli
-// MT2024081
-
 /*
-    Write a program to execute ls -l | wc.
-    a. use dup
-    b. use dup2
-    c. use fcntl
+NAME:17b.c
+AUTHOR: Kuldeep Chamoli
+ROLLNO: MT2024081
+PROGRAM:
+17. Write a program to execute ls -l | wc.
+a. use dup
+b. use dup2
+c. use fcntl
+DATE: 11 SEP 2024
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
 #include <stdio.h>

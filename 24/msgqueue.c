@@ -1,8 +1,14 @@
-// Kuldeep chamoli
-// MT2024081
+
 /*
-Write a program to create a message queue and print the key and message queue id.
+NAME:24 msgqueue.c
+AUTHOR: Kuldeep Chamoli
+ROLLNO: MT2024081
+PROGRAM:24. Write a program to create a message queue and print the 
+key and message queue id.
+DATE: 16 SEP 2024
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
+
 #include <stdio.h>
 #include <sys/ipc.h>
 #include <sys/msg.h>

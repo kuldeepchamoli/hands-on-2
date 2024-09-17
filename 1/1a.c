@@ -1,5 +1,19 @@
-// Kuldeep Chamoli
-// MT2024081
+/*
+NAME:1a.c
+AUTHOR: Kuldeep Chamoli
+ROLLNO: MT2024081
+PROGRAM:
+1.This program sets an interval timer for two different time domains:
+    a. 10 seconds (choice 1)
+    b. 10 microseconds (choice 2)
+
+    The program uses:
+    - ITIMER_REAL: Real-time timer (sends SIGALRM when the time expires).
+    - ITIMER_VIRTUAL and ITIMER_PROF can also be configured similarly for other cases.
+
+    User selects between the two intervals.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
 
 /*
     This program sets an interval timer for two different time domains:
@@ -63,7 +77,8 @@ int main() {
 
     return 0;
 }
-/*kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/1$ ./1a
+/*output
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/1$ ./1a
 Select interval timer duration:
 1. 10 seconds
 2. 10 microseconds

@@ -1,5 +1,5 @@
-// Kuldeep Chamoli
-// MT2024081
+// Name :Kuldeep Chamoli
+// Roll No: MT2024081
 
 /*
 Write a program to ignore a SIGINT signal then reset the default action of the SIGINT signal -
@@ -44,3 +44,12 @@ void main()
         sleep(5);
     }
 }
+/*
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ mkdir 11
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ cd 11
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/11$ nano ignore.c
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/11$ gcc -o ignore ignore.c 
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/11$ ./ignore 
+ignoring the SIGINT signal for 5 seconds
+reseting the default action of the SIGINT signal
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/11$ nano ins.txt*/

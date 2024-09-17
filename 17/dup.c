@@ -39,3 +39,8 @@ void main(){
         }
     }
 }
+/*kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ cd 17
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/17$ ./dup
+      7      56     423
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/17$ 
+*/

@@ -1,7 +1,11 @@
-// Kuldeep Chamoli
-// MT2024081
 /*
-Write two programs so that both can communicate by FIFO -Use two way communication.
+NAME:21b.c
+AUTHOR: Kuldeep Chamoli
+ROLLNO: MT2024081
+PROGRAM:
+21. Write two programs so that both can communicate by FIFO -Use two way communications.
+DATE: 09 SEP 2024
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
 #include <sys/types.h> 

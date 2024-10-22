@@ -41,4 +41,5 @@ RLIMIT_FSIZE soft limit = -1, hard limit = -1
 RLIMIT_STACK soft limit = 8388608, hard limit = -1
 RLIMIT_DATA soft limit = -1, hard limit = -1
 RLIMIT_NOFILE soft limit = 1024, hard limit = 1048576
-kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/2$ */
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/2$ 
+getrlimit function can be used to verify that a process has sufficient resources before performing resource-intensive operations.*/

@@ -57,4 +57,6 @@ Maximum number of open files: 1048576
 Size of a page: 4096 bytes
 Total number of pages in the physical memory: 3031649
 Number of currently available pages in the physical memory: 888741
-kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/5$ */
+kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/5$ 
+Retrieves system configuration information.
+Allows you to obtain various system-wide parameters and settings.*/

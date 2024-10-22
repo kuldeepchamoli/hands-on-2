@@ -56,4 +56,9 @@ Select interval timer
 1:10s
 2:10micros2
 Profiling timer expired
-kuldeep-chamoli@ubuntu:~/*/
+kuldeep-chamoli@ubuntu:~/
+ITIMER_VIRTUAL: Measures only the time spent executing the process's own code.
+ITIMER_PROF: Measures the total time spent by the process, including time spent in system calls.
+ITIMER_REAL: Measures elapsed real time, unaffected by system load or process activity.
+ITIMER_VIRTUAL: Measures the process's CPU usage excluding system calls.
+ITIMER_PROF: Measures the process's total CPU usage, including system calls.*/

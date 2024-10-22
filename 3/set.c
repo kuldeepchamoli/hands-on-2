@@ -32,4 +32,6 @@ kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ gcc -o set set.c
 kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ ./set
 CPU time limit set to 2 seconds.
 kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2$ nano ins.txt
-*/
+getrlimit function can be used to verify that a process has sufficient resources before performing resource-intensive operations.
+Sets the current or maximum resource limits for a specified resource type.
+Allows you to control the resource usage of your process*/

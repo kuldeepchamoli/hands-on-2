@@ -91,4 +91,16 @@ Select interval timer duration:
 1
 Alarm clock
 kuldeep-chamoli@ubuntu:~/Desktop/hands-on-2/1$ 
+Key Points:
+
+TIMER_REAL is a real-time timer, meaning it's not affected by system load or other factors.
+The setitimer() function is used to set the timer.
+The SIGALRM signal is generated when the timer expires.
+A signal handler is used to process the SIGALRM signal.
+You can use pause() to suspend the process until a signal is received.
+Additional Considerations:
+
+ITIMER_VIRTUAL and ITIMER_PROF are similar timers that can be used for measuring process time and profiling.
+You can reset the timer using setitimer() with an interval of zero.
+Be aware of potential race conditions when using timers in multi-threaded applications.
 */
